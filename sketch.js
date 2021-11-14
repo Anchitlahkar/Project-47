@@ -8,14 +8,14 @@ var player,
 
 var laserSound, blustSound;
 function preload() {
-    alienShip = loadImage("/images/alien.png")
-    spaceCraftImg = loadImage("/images/player.png")
-    SettingButtonImg = loadImage("/images/playButton.png")
-    playButtonImg = loadImage("/images/settingButton.png")
-    BackButtonImg = loadImage("/images/back.png")
+    alienShip = loadImage("./images/alien.png")
+    spaceCraftImg = loadImage("./images/player.png")
+    SettingButtonImg = loadImage("./images/playButton.png")
+    playButtonImg = loadImage("./images/settingButton.png")
+    BackButtonImg = loadImage("./images/back.png")
 
-    laserSound = loadSound("/audio/laser.mp3")
-    blustSound = loadSound("/audio/Blust Sound.mp3")
+    laserSound = loadSound("./audio/laser.mp3")
+    blustSound = loadSound("./audio/Blust Sound.mp3")
 }
 
 function setup() {
